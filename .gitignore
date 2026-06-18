@@ -1,0 +1,29 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Project data (never commit competition data) ----
+data/raw/
+data/interim/
+data/processed/
+
+# ---- Generated outputs ----
+artifacts/*.joblib
+submissions/*.csv
+logs/*.log
+mlruns/
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+rogii-wellbore-geology-prediction.zip

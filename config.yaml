@@ -1,0 +1,6 @@
+paths:
+  train_dir: /data/raw/train
+  test_dir: /data/raw/test
+  sample_submission: /data/raw/sample_submission.csv
+  artifacts_dir: artifacts
+  submission_path: submissions/submission.csv
