@@ -4,3 +4,24 @@ paths:
   sample_submission: /data/raw/sample_submission.csv
   artifacts_dir: artifacts
   submission_path: submissions/submission.csv
+
+features:
+  gr_windows: [5, 15, 30, 60]
+  typewell_neighbors: 5
+
+cv:
+  n_splits: 5
+  group_col: WELLNAME
+  random_state: 42
+
+model:
+  n_estimators: 2000
+  learning_rate: 0.03
+  num_leaves: 63
+  subsample: 0.8
+  colsample_bytree: 0.8
+  min_child_samples: 40
+
+mlflow: 
+  expeeriment: rogii-wellbore-tvt
+  enabled: true
